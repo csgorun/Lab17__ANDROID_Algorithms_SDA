@@ -7,22 +7,22 @@ int score = Convert.ToInt32(Console.ReadLine());
 string grade;
 int numericGrade;
 //Множественное ветвление
-if (score >= 91 && score < 100)
+if (score >= 91 && score <= 100)
 {
     grade = "Отлично";
     numericGrade = 5;
 } 
-else if (score >= 71 && score < 90)
+else if (score >= 71 && score <= 90)
 {
     grade = "Хорошо";
     numericGrade = 4;
 }
-else if (score >= 51 && score < 70)
+else if (score >= 51 && score <= 70)
 {
     grade = "Удовлетворительно";
     numericGrade = 3;
 }
-else if (score >= 0 && score < 50)
+else if (score >= 0 && score <= 50)
 {
     grade = "Неудовлетворительно";
     numericGrade = 2;
